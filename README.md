@@ -1,6 +1,6 @@
 # DPGNN-GasLeak (Deep Probabilistic Graph Neural Network for Natural Gas Leak Detection)
 
-This repository contains code and data for replicating the work in the paper 'Towards deep probabilistic graph neural network for natural gas leak detection and localization without labeled anomaly data' by Zhang et al. (2023). The paper proposes a deep probabilistic graph neural network that integrates an attention-based graph neural network and variational Bayesian inference to model spatial sensor dependency and localize natural gas leaks.
+This repository contains code and data for replicating the work in the paper '[Towards deep probabilistic graph neural network for natural gas leak detection and localization without labeled anomaly data](https://doi.org/10.1016/j.eswa.2023.120542)' by Zhang et al. (2023). The paper proposes a deep probabilistic graph neural network that integrates an attention-based graph neural network and variational Bayesian inference to model spatial sensor dependency and localize natural gas leaks.
 
 ## Getting Started
 
