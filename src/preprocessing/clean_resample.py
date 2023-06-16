@@ -1,7 +1,8 @@
 import pandas as pd
 
 # Load the raw data from a CSV file
-data = pd.read_csv('raw/raw_data.csv', index_col=0, parse_dates=True)
+csv_path = '../../data/raw/raw_data.csv'
+data = pd.read_csv(csv_path, index_col=0, parse_dates=True)
 
 # Remove any rows with missing or invalid values
 data = data.dropna()
@@ -10,4 +11,5 @@ data = data.dropna()
 data = data.resample('10S').mean()
 
 # Save the cleaned and resampled data to a new CSV file
-data.to_csv('preprocessed/cleaned_data.csv')
+csv_path = '../../data/preprocessed/cleaned_data.csv'
+data.to_csv(csv_path)
